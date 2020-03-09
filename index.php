@@ -1,23 +1,14 @@
 <?php
 
 /**
- * @defgroup plugins_generic_exampleGenericPlugin Example generic plugin
- */
-
-/**
- * @file plugins/generic/exampleGenericPlugin/index.php
+ * @file index.php
  *
- * Copyright (c) 2014 Simon Fraser University Library
- * Copyright (c) 2014 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2014-2020 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file LICENSE.
  *
- * @ingroup plugins_generic_exampleGenericPlugin
  * @brief Wrapper for example generic plugin.
- *
  */
 
 require_once('ExampleGenericPlugin.inc.php');
-
 return new ExampleGenericPlugin();
-
-?>

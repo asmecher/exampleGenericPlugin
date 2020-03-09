@@ -1,14 +1,13 @@
 <?php
 
 /**
- * @file plugins/generic/exampleGenericPlugin/ExampleGenericPlugin.inc.php
+ * @file ExampleGenericPlugin.inc.php
  *
- * Copyright (c) 2014 Simon Fraser University Library
- * Copyright (c) 2014 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2014-2020 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file LICENSE.
  *
  * @class ExampleGenericPlugin
- * @ingroup plugins_generic_exampleGenericPlugin
  *
  * @brief This example plugin demonstrates basic plugin structures in PKP applications.
  */
@@ -97,5 +96,3 @@ class ExampleGenericPlugin extends GenericPlugin {
 		}
 	}
 }
-
-?>
